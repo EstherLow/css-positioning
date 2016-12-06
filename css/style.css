@@ -14,7 +14,7 @@ body {
 .banner{
 width: auto;
 height: 300px;
-background: linear-gradient(#1c5380, #06365f);
+background: linear-gradient(#1c5380, 90%, #06365f);
 }
 
 .overlay {
@@ -41,7 +41,7 @@ float: left;
 }
 
 .brand{
-  display: table-cell;
+  /*display: table-cell;*/
   vertical-align: middle;
   /*border: 1px solid blue;*/
   width: 500px;
@@ -51,7 +51,7 @@ float: left;
   width: 90px;
   height: 35px;
   background: linear-gradient(#1c5380, #06365f);
-  line-height: 35px;
+  /*line-height: 35px;*/
   text-align: center;
   color: #ffffff;
 }
@@ -59,8 +59,12 @@ float: left;
 #home img {
   display: inline-block;
   float: left;
+  margin-right: 10px;
 }
 
+/*#home span {
+  vertical-align: middle;
+}*/
 
 .text {
   /*border: 1px solid green;*/
