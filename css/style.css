@@ -9,3 +9,86 @@ body {
   font-size: 16px;
   margin: 0;
 }
+
+
+.banner{
+width: auto;
+height: 300px;
+background: linear-gradient(#1c5380, #06365f);
+}
+
+.overlay {
+  width: 100%;
+  position: relative;
+  top: -150px;
+  display: inline-block;
+}
+
+.phones {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0 10px 0 10px;
+  padding-left: 200px;
+  float: left;
+}
+
+
+.pageright {
+width: 500px;
+/*border: 1px solid red;*/
+margin: 0 10px 0 10px;
+float: left;
+}
+
+.brand{
+  display: table-cell;
+  vertical-align: middle;
+  /*border: 1px solid blue;*/
+  width: 500px;
+}
+
+#home {
+  width: 90px;
+  height: 35px;
+  background: linear-gradient(#1c5380, #06365f);
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#home img {
+  display: inline-block;
+  float: left;
+}
+
+
+.text {
+  /*border: 1px solid green;*/
+  width: 450px;
+  background-image: url(../img/frame.png);
+  background-repeat: no-repeat;
+  padding: 30px;
+  overflow: auto;
+}
+
+h1 {
+  color: #06365f;
+}
+
+
+.footer {
+  position: relative;
+  text-align: center;
+  bottom: 5px;
+  display: block;
+  clear: both;
+  color: #1c5380;
+  text-transform: uppercase;
+}
+
+.footer ul li {
+  display: inline;
+  padding: 0 4px 0 4px;
+  list-style: none;
+
+}
